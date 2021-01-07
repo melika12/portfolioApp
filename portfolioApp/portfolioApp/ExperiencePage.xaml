@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="portfolioApp.ExperiencePage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Experience" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title" Padding="0,0,75,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout Padding="30,0,30,0">
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="StartAndExpand">
+                    <Label Text="&#x0a;Mercantec SKP" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="EndAndExpand">
+                    <Label Text="&#x0a;Apr. 2019 - Okt. 2019" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="Data technician specializing in programming" FontAttributes="Bold"/>
+            <Label Text="I practiced on exercises and assignments that made me ready to the next semester." />
+
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="StartAndExpand">
+                    <Label Text="&#x0a;Viborg Kommune" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="EndAndExpand">
+                    <Label Text="&#x0a;Jan. 2019 - Mar. 2019" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="Data technician specializing in infrastructure" FontAttributes="Bold"/>
+            <Label Text="I was a datatechnician specializing in infrastructure there, because I, at my apprenticeship test, got the offer of a project-oriented internship by my examiner.&lt;br/&gt;&lt;br/&gt; 
+                I found it very exciting and I talked to the student counsellor about the fact that I want to be a datatechnician specializing in programming, but got this offer that I found interesting, and he told me that it would not be a problem.&lt;br/&gt;&lt;br/&gt;
+                The projects were to replace around 180 routers and 800 access points around the city. I also replaced switches and made cable management." TextType="Html"/>
+
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="StartAndExpand">
+                    <Label Text="&#x0a;SCU" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="EndAndExpand">
+                    <Label Text="&#x0a;Feb. 2017 - Dec. 2018" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="IT supporter" FontAttributes="Bold"/>
+            <Label Text="I helped students, teachers and the administration with their computers.&lt;br/&gt;&lt;br/&gt;
+                I also fixed the projectors and printers, and took care of cable management in the administration and in the classrooms." TextType="Html"/>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

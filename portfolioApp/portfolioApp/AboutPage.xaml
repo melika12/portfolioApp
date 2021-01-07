@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="portfolioApp.AboutPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="About me" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title" Padding="0,0,75,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ScrollView>
+        <StackLayout Padding="30">
+            <StackLayout>
+                <Label Text="Interests" FontSize="16" FontAttributes="Bold"/>
+                <Label Text="Apart from studying, I enjoy being outdoors. In the winter, I love to go iceskating, and someday I would take a trip to Austria, because I have always wanted to go on a skiing vacation.&lt;br/&gt;&lt;br/&gt;
+                    During the warmer months, I enjoy taking a walk at the beach or in the woods, and go to amusement parks with my family and friends.&lt;br/&gt;&lt;br/&gt;
+                    When I spend my sparetime indoors, I watch movies and television shows, I also love music, both to hear and play myself, where I play piano and guitar.&lt;br/&gt;&lt;br/&gt;
+                    I love to help my family with their computer problems, because I like lending a hand when someone needs it. I've, among other things, helped my grandmothers a lot with their small IT and software troubles.&lt;br/&gt;" 
+                    TextType="Html"/>
+
+                <Label Text="Personal skills" FontSize="16" FontAttributes="Bold"/>
+                <Label Text="I'm as a person forthcoming, flexible and hard working. I bring a good mood, great humor and a positive approach to the working day. 
+                       When I get an assignment, I will give all I've got to solved it at the best way possible. 
+                       I'm open to new ideas, inputs and techniques to solve the assignment in the best way, and accepts the assignment with a smile, because I enjoy challenging myself and my competences.
+                       &lt;br/&gt;&lt;br/&gt;Me as a person:" TextType="Html" />
+                <StackLayout Padding="15,0,15,0">
+                    <Label Text="&#x2022; Devoted, forthcoming and a quick learner." />
+                    <Label Text="&#x2022; Smiling, mature and always in a good mood, which gives a lot of energy to a busy working day." />
+                    <Label Text="&#x2022; Always ready to give all I've got and do my job to satisfaction." />
+                    <Label Text="&#x2022; Determined, good to prioritization and enterprising." />
+                    <Label Text="&#x2022; Good at both cooperation and working independent." />
+                </StackLayout>
+                <Label Text="I find programming so fascinating, I love learning new things and I'm looking forward to making it a part of my everyday life. Before I began at my first semester, I took the course 'JavaScript Fundamentals ES6 for beginners' at udemy.com, which I found very exciting and educative." 
+                    TextType="Html" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

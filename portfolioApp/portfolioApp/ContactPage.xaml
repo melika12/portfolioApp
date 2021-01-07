@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="portfolioApp.ContactPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Contact me" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title" Padding="0,0,75,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout>
+        <Label Text="Contact information" HorizontalTextAlignment="Center" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="&lt;strong&gt;Phone:&lt;/strong&gt; 12 34 56 78&lt;br/&gt;&lt;strong&gt;Email:&lt;/strong&gt; dontlook@me.org&lt;br/&gt;" TextType="Html" FontSize="16" Padding="30,0,30,0"/>
+
+        <StackLayout Padding="30,0,30,0">
+            <Label Text="Feeling intrigued?" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="If you like what you have seen and think I sound like the type of programmer you need, do not hesitate to contact me.&lt;br/&gt;&lt;br/&gt;
+                    I am looking forward to hear from you, and I have made links so you can email, call or text, and with just a click, you are on the given app you need to use.&lt;br/&gt;&lt;br/&gt;
+                    I have also liked to my GitHub and LinkedIn below." 
+                    TextType="Html" FontSize="16" />
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Image Source="Linkedin.png" HeightRequest="50">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://linkedin.com/in/melika-pedersen-74373a12b" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+                
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Image Source="Github.png" HeightRequest="50">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://github.com/melika12" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+                
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="Call" Text="Call me" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="Message" Text="Text me" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="Email" Text="Email me" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

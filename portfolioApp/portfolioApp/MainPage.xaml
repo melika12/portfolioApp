@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="portfolioApp.MainPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Introduction" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <StackLayout>
+        <Image Source="picture.jpg" HeightRequest="200"/>
+
+        <Label Text="Melika Pedersen" HorizontalTextAlignment="Center" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="&lt;strong&gt;Phone:&lt;/strong&gt; 12 34 56 78&lt;br/&gt;&lt;strong&gt;Address:&lt;/strong&gt; Nonofyourbusiness street 69" TextType="Html" FontSize="16" Padding="30,0,30,0"/>
+
+        <StackLayout Padding="30,0,30,0">
+            <Label Text="Introducing me" FontSize="16" FontAttributes="Bold"/>
+            <Label Text="I live in Monstropolis and is studying to become a data technician spezializing in programming at Mercantec.&lt;br/&gt;&lt;br/&gt;
+                    I live with my boyfriend and our dog, Mushu. I have an apprenticeship at Monsters, Inc. and has been there since the start of October 2019.&lt;br/&gt; 
+                    &lt;br/&gt;I'm at my fourth semester (H4), where I'm, at the time of writing, learning about Xamarin which we are using to learn how to make apps." 
+                    TextType="Html" FontSize="16" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="Education" Text="Education" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="About" Text="About me" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="Experience" Text="Experience" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Clicked="Contact" Text="Contact me" TextTransform="None" FontAttributes="Bold"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

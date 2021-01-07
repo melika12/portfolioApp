@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="portfolioApp.EducationPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Education" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title" Padding="0,0,75,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout Padding="30,0,30,0">
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="StartAndExpand">
+                    <Label Text="&#x0a;Mercantec" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="EndAndExpand">
+                    <Label Text="&#x0a;Apr. 2019 - Now" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="Data technician specializing in programming" FontAttributes="Bold"/>
+            <StackLayout Padding="15,0,15,0">
+                <Label Text="&#x2022; Third semester GPA: 12" />
+                <Label Text="&#x2022; Second semester GPA: 11" />
+                <Label Text="&#x2022; First semester GPA: 11" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="StartAndExpand">
+                    <Label Text="&#x0a;Mercantec" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="EndAndExpand">
+                    <Label Text="&#x0a;Aug. 2016 - Dec. 2018" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="IT supporter" FontAttributes="Bold"/>
+            <StackLayout Padding="15,0,15,0">
+                <Label Text="&#x2022; Exermination grade: 12" />
+                <Label Text="&#x2022; Final semester GPA: 9.6" />
+                <Label Text="&#x2022; Second semester GPA: 8.83" />
+                <Label Text="&#x2022; First semester GPA: 11.33" />
+                <Label Text="&#x2022; Core course 2 GPA: 10" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="StartAndExpand">
+                    <Label Text="&#x0a;&#x0a;Theoretical skills" FontSize="16" FontAttributes="Bold"/>
+                    <Label Text="Throughout the school time, I've been through C#, HTML, CSS, JavaScript, PHP and in the time of writing, Xamarin.&lt;br/&gt;&lt;br/&gt;
+                           I have mostly worked in Visual Studio, and as First semester's exam I made a website with my resume.&lt;br/&gt;&lt;br/&gt;
+                           At my apprenticeship I have worked on a website in PHP, made bash script and studied a new programming language I haven't heard of before; Rust." TextType="Html" />
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
